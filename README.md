@@ -20,6 +20,8 @@ This step is important for the code to run, NOTE : the access credentials are te
    - Change "Anywhere" to "My IP"
 6. Keep default **Configure Storage** and **Advanced Details**
 
+![Alt text](Screenshot-2024-10-26-011409.png)
+
 ## Logging into the EC2 instances on your local machine
 
 ```bash
@@ -69,7 +71,19 @@ Run object detection(EC2-A):
 java -jar AWSObjectDetection.jar
 ```
 
+This is the output we get after running the code.
+![Alt text](Screenshot-2024-10-26-010910.png)
+
+We can also see in the AWS console that a queue has been created and we can retrieve the results using the "Polling for messages" option
+![Alt Text](Screenshot-2024-10-26-010926.png)
+
+![Alt Text](Screenshot-2024-10-26-010939.png)
+
+
 Run text detection with output file(EC2-B):
 ```bash
 java -jar AWSTextRekognition.jar > output.txt
 ```
+
+On running the Text recognition we can see this output:
+![Alt Text](Screenshot-2024-10-26-011232.png)
