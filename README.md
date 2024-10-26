@@ -20,7 +20,7 @@ This step is important for the code to run, NOTE : the access credentials are te
    - Change "Anywhere" to "My IP"
 6. Keep default **Configure Storage** and **Advanced Details**
 
-![Alt text](Screenshot 2024-10-26 011409.png)
+![Alt text](CS643_Programming_Assignment1/Screenshot%202024-10-26%20011232.png)
 
 ## Logging into the EC2 instances on your local machine
 
